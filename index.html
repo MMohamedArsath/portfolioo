@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="icon" href="download (2).png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">My Portfolio</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Mohamed Arsath.M</span></h1>
+      <p>Student | Entry Level Software Developer | Creator</p>
+    </div>
+    <div class="cont">
+      <a href="Resume (1)_removed (1).pdf" type="button" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I am a passionate software developer with a strong foundation in Core Java. I have a solid understanding of Java's core concepts, object-oriented programming, and problem-solving techniques. Alongside my expertise in Java, I also have basic knowledge of front-end technologies such as HTML and CSS, which allows me to build visually appealing and responsive web pages.</p>
+
+        <p>In addition to my development skills, I have a basic understanding of MySQL for database management and can build simple dynamic applications. I am continuously learning and applying new technologies to enhance my skill set and deliver high-quality projects.</p>
+
+        <p>My communication skills and teamwork abilities allow me to effectively collaborate with others, interact with clients, and present ideas clearly. I am dedicated to improving my skills and keeping up with industry trends to stay ahead in the ever-evolving tech world.</p>
+      </div>
+      <div class="about-img">
+        <img src="WhatsApp Image 2025-02-23 at 11.42.42 AM.jpeg" alt="Profile Picture">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="card-container">
+      <!-- Core Java Skill -->
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyWON4mn5jS5GDOQy9jAUfJX75IJW4KFwhlag-2uuaKquuX_Ftga9&usqp=CAE&s" alt="Java" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">Core Java</h2>
+          <p class="card-description">In-depth knowledge of Core Java concepts, including object-oriented programming, collections, exception handling, and multithreading.</p>
+        </div>
+      </div>
+
+      <!-- HTML Skill -->
+      <div class="card">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACUCAMAAAC3HHtWAAAAdVBMVEX////xZSjxYyP96+XydUTwUwDvSgD+9fL60cX84tvwWw7++vn4wLD3rJfxYR/xXxnybTjydkvwWAD3tKDzgFf71835yLr97+v73NP1mXz2oojycj/4u6n6zcD0k3rzgl30i2j0kXD2p4/yb0TwYzH0jHHxaTChZjdEAAAE/UlEQVR4nO2a2XajOhBFhUAMAkuAmWxMG5xu/v8TrwSxkNOeQm7RL7WfYhZZPqsk6tQRJgRBEARBEARBEARBEARBEARB/gcCdz0BpLD4V+utpf0VAyqLUkHXItIIUFntUWct1KsBlQXZD5RloBut+IGyAlIYOYvVysQZVFm/XpnsQZUd5XplR1BlO75aGd+DKjvlq5XlJ1BlHVutjHWgyhpLWe6/hi1dhjWgylx/UVYFrwlHc7vvgioLjDLqvfUPS2v2IQ1dYVaTtgFxu/Apav0K0wAZrDAiF2U12fvsGf6f2FImgZW119WhqUuS591NHqyaifdWfz1LDcboW8okrG0SMpjlHBtS6Q+Uywfkg7WacgBWdlzKVJJQLS0dT8kjQqtmHNY2beOkISn1N+6e3m+6xov7fk5ijFNWpBnnb2yiR4Tp9XZg2ySkMsp4QiKt7KJaSfoIahptXgEr68xq8hNxUzo9gM7DRLU8qBzW0AkJpaWsVt1Nj6reG5OuCIGVNUsR9iTQylSfKt6YdEfYUUNnYethi1X81L295y9Xk4LmYI1rsrBuUCp+0lE1uY/sPqlZZurBDkF2FtZbX3/g6mp8H7X2xmZhc7DWYNlNPPXRZ9PNcrc4A49nVuKUfTx9EOfdfS4lCcZrzUQPLWxRJoqYHPRDKfh9/ITUpvttoOxw7RBC7ZzjszGIhaQ2w7nelcBcrmL0uL17Fj9ZRCIznGsTA8ZkYeoEZP9AGdfbyw9IaZSBG7qy9KUMAakfjBiV7scssPyfQRu6nYXZkzPEQTiUxlZNgXOwxjXK5OF+lusaEqsnWHix9YQwaAuws7Aj73cLdiS16rBS9dbeWL0PbQEK6/zgwfbfTe6qI8mStHx4YeTlaZAedtUToB3fpFPwhK5xrNEm/0zjN80jD0kj5oBgRibqbKAsWyabtipnTrYX5A0pldRcmdNim9AJXbPsaut8s7Xm7dwloVpyXk0JZgb4+HjmcKOsnl91ZZYyFk/ZT3bWaL6BbVrGqZXVv33fz9SGMnJl/kHmDluSzujdwDbtQ2StzJvTU+IxLtToLVkR1tMZgx78E6N3A9u8ycKzMpHpy0EytMw7Tq0+UtGEti7Zm/KC52BNyL4oU/1hzkVROenqeirmwX9RxqDTpqbkX5U5nMljM/t7tM/ZtLv0C7DFNnm5gbKbLFx/xnPK8+zYxeWBfq619M/2Y+zAjxo3WVil9D8O//x6oQxeSjrrHAdVpNi0PvgcrLGysO60TXJm+c25hmDOfipRZy7B52BNbQ7rRBHpEBkHyXn8rJYql1OE+mqQZMI4LC0g31RfCZa3ryI/z9UhbnVwmKSCjZfpQnQZmVVIcd5gPLt9+yq5016mypE6HJyPRCuIy2LOKIuyfgthesa3odxPj920WpPCaH9TrlkZ9MH2zOGvczzBZTt0k65mGPnfvwIQWxi6bel25SRjQ5V4/t1Dvk0MnTyMv2rM4A+ORXPYN9VXqu+/sd7E0G1Lf5tNDF1RpPl3frYh8hT25y0W0anw7zyB96C5X5y2ME1DvVPd9FXlBHey/Ra+9IVyp0bsx5WjnGX7Lcaye8TRoRV3xQku2mMEfmj8VFx3SZm8Fae6brvb6Gl8SlD2VBpx6k9naDYZLd4hrg6qckqXZOlxm676Pm7YM876cIvh9dvE4T/d8giCIAiCIAiCIAiCIAiCIAjyj/kPYdhRt78+Ay8AAAAASUVORK5CYII=" alt="HTML" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">HTML</h2>
+          <p class="card-description">Understanding of HTML5 for structuring web content with knowledge of elements, forms, and semantic tags.</p>
+        </div>
+      </div>
+
+      <!-- CSS Skill -->
+      <div class="card">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQcBBAYDAv/EAEEQAAEDAwEDBwkFBQkAAAAAAAEAAgMEBREGEiGRExQxQVFh0QcWIlJVcYGhwRVDk6KxMlSS4fEjJCUzQlNiY3L/xAAaAQEAAwEBAQAAAAAAAAAAAAAABAUGAgMB/8QAMREAAgEDAAcGBQUBAAAAAAAAAAECAwQRBRQhMTJSYRJBcZGx0RNRgaHBIiMzQvA0/9oADAMBAAIRAxEAPwC8UAQDKAZQDKAZQDKAZQDKAIAgCAICL1NXzWyy1FXTgcqzZDSRkDLgM/NSbSlGtWUJbiLe1pUaEpx3+7wV0dS3r2jNwb4K/wBSt+RfczuvXXO/t7GPOW9e0puDfBNSt+Rfca9c87+3sY85r17Sm4N8E1K35ENeued/b2Mect8JwLjOT3Nb4JqVtyIa9c87+3sZ84r/APv9R/APBNTteVDX7nnf29jHnHf/AN/qP4B4Jqdtyoa/c8/p7A6jv4GTX1GP/A8E1O25UNfuef09iX0fqW6VN8go6uoNRFPtAh7RlpDScggdyiX1nRhRc4LDRNsL2vKuoTeUyxVRF+EAQEPq9nKabrx2R7XAg/RSrJ4uIeJEv1m2n4FTZWoMofJcB0kIDG2O0cUPp7UThzpm8dfX3Lipws5luJbab2jiox54G0O0cUGBkAE9QGUB9eT5nKamgPqRPd8sfVc6TeLd9Wi10Ys3K6JlrLNmmCAIDRvsfK2Wvjxnap5B+Ur2t32a0H1R43Me1RmujKY2ty1pj0T2jIKepuFTHUwRTDkQ5okYHYwe/wB6rNJSlGMXF4LTRkITnJSWdh1/2TbfZ1H+AzwVR8erzPzLjV6XIvI9qK023nTP8Oo+v7hnZ7l8lXq44n5n1W9HkXkSv2RbPZ1J+A3wXn8apzPzOtWo8i8ka1ytttht1VK2gpAWQvcCIW7sA9y7p1Kjml2nv+Z51qFGNKT7C2J9yK4kOzSvPZGf0WhitqMh3kh5Mo9q+zyepTEcXN8FH0s8UUupc6Jjms30LNWfNCEAQHnOzlYXxnoc0t4hfU8NM+SWVgopp9EZ6cLZmKW4y2R8btqOR7HYxlji3d8FxKEZcSOoylHheDLqydv7VXOPfM7xXPwafKvI6+NV5n5s9qCuk52zNdNjf9+7s964qUqfZ4V5HyVaqlxPzZ0NuqpJblRxtrJXF1RGCOWJyNod6hVoQVOTUe75HdtWqSrQXbe9d7+Z3+onbNhuHfTvHEYVNb/yx8TT3v8AzVPB+hWNadmilP8AxwtHT4kY5byb8lTM1Fyk9VkbeJd4KFpd/pgvH8F7odfqm/D8liKjL0IAgCAouvZyNdUxepM9vBxC2NN9qEX0RjKixUkur9TwyuzgnNFOH2+A7GHQPG/3g/RV+kl+zs+ZY6M/n+hY1E2PnTPRZ19Q7FQSzg0KSySuzHkYDc+5eW07wiN1W7Z0/Wd7QOLgFItVmtEiaQeLaZWV1OKF/eQPmtHS4jIredT5Ko8UFfLj9qZreDc/VVel3+5FdDRaHj+3J9TulUFwEAQBAUpqVnJahuLMY/vLzxOfqtZavNCD6IyN2sXE11NW20vP7lTUhkMYmds7YGcbiehdXFR0qbmu45t6Sq1VBvGSZv2k2W21zVvPHTckW+g6IAHLgOnPeoNvfyrVFBx3k+50fGjSc1LcQVsjjNdF6A6/0KsKi/QVL3HYaaiZ5w0Ia0D0nHgxxVZebKMv93krRu26h9fRnW6ydiwzD1nxj8wVZZrNdF7pN4tZfT1KzvjsUjR2vH6FaKjxGWjvO58l8expyR+P8ypefk0fRU2lXmvj5I02iY4t8/Ns69VhZhAEAQFOa5Zyeq7gOouY4fFjVqNHvNtH/d5ltILFzL6ehGWeojprxRTTPDI2TAuceodZXrdQc6Mor5HlaSUK8ZPcWkx9JcKY7DoamB4wcEPaVmcTpy27GadONSOzaiOj0haZq+OSJktOckkQvwDu7DnHwwpKv68Y4bz4kSejreo92PA6Wgs9vtxDqWma14+8PpO4neolStUqcTJVG1o0eCJD60rqZ9vFLHURvn5VpdG1wJAGekdSk2NOXxO1jYQdK1qfwXBPbs2FdahdiKFva4n5fzWgob2ZyJZPk7j2NJUZ63ukd+d3gs/pJ5uZfT0NXo5Yto/X1OkUEnBAEAQFTeUpnJ6mLv8Acp2O/UfRaPRbzb46szelVi4z0RyhKsitMwzS08nKU8skMnrRvLTxC5lTjNYksncakoPMXg6WxauvEdUyJ8kM+QcOlj3jd3EZ+Kr6+jqLWVsJsNKV4LbtJGsudwriec1chb6jDsN4Dp+K86dtShuRErXterxS/BpgNY3cA0Be5FIG+1Mc00bInh2wDkg7sn+ilUYtLLOki3tHR8lpe2N7adruO/6rMXjzcTfU2FmsW8F0JlRiSEAQBAQGqNL0uoY4zJI+CoiBDJWjO49RHWFMtLyds3hZT7iHd2cLlLOxrvOFuHk9vNNl1KYatg6Nh2w7gd3zVvS0rRlxbCoq6KrR2xwzma6grbe/ZrqSanOcf2jCAfcegqfTq06nBJMr6lGpT44tHnR1HNqhkxbtbOd2cZ3Lqce0sHng2pbzVSu2IWtjJOAGjacuFRit58Ucm7R6Z1FdyHcznDD/AK6k7AHwO/gF4Tvbal/by2k2lYXFTdHHidLavJmQ9j7tWtc0b3Q07Tv7to+CgVtL7MUo/V+xYUdEYeakvIsWONkUbY42hrGgBrR0ADqVK228sukklhH0vh9CAIAgCAID5exj2lr2hzT0gjIKLZtR8aTIWq0hYKqTbktkId/15YD8GkBSo31xBYUvyRpWVvJ5cEb9vtNutzcUNFBB2ljACfeekryqVqlTjk2e1OjTp8Cwbq8j0CAIAgCAIAgCAIAgCAIAgCAIAgCA/9k=" alt="CSS" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">CSS</h2>
+          <p class="card-description">Basic understanding of CSS for styling web pages, using properties such as colors, fonts, layout, and responsive design with media queries.</p>
+        </div>
+      </div>
+
+      <!-- MySQL Skill -->
+      <div class="card">
+        <img src="data:image/png;base64,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" alt="MySQL" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">MySQL</h2>
+          <p class="card-description">Basic understanding of MySQL database management, including creating tables, writing SQL queries, and handling data storage.</p>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="card">
+        <img src="data:image/png;base64,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" alt="Soft Skills" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">Soft Skills</h2>
+          <p class="card-description">Strong communication, teamwork, and problem-solving abilities to collaborate effectively and contribute to team success.</p>
+        </div>
+      </div>
+
+      <!-- Creative Thinking -->
+      <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="Creative Thinking" class="card-img">
+        <div class="card-content">
+          <h2 class="card-title">Creative Thinking</h2>
+          <p class="card-description">Innovative approach to solving problems and creating new solutions, contributing to fresh and out-of-the-box thinking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact Section -->
+ <center> 
+<section id="contact" class="contact">
+  
+  <h2>Contact</h2>
+  
+  <div class="contact-info">
+    <!-- Mail-to link with email icon -->
+    <a href="mmohamedarsath6@gmail.com">
+      <img src="images.png" class="contact-icon" alt="Email Icon">
+    </a>
+  
+    <!-- LinkedIn link with LinkedIn icon -->
+    <a href="https://www.linkedin.com/in/m-mohamed-arsath-088934251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      <img src="download (1).png" class="contact-icon" alt="LinkedIn Icon">
+    </a>
+  </div>
+  
+
+</section>
+</center>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mohamed Arsath | All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
